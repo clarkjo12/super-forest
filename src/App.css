@@ -1,0 +1,88 @@
+@import "../node_modules/normalize.css/normalize.css";
+
+/* Fonts */
+.siphon {
+  font-family: "Sifonn Pro";
+}
+
+.kollektif {
+  font-family: "Kollectif";
+}
+
+/* Color */
+.red {
+  color: #fa6e53;
+}
+/* 
+ - First Section - */
+.main-landing {
+  background-color: #feea91;
+  height: 99vh;
+}
+
+.top-block {
+  height: 50%;
+}
+
+.logo {
+  width: 35vw;
+  max-width: 350px;
+  float: right;
+  margin-top: 3%;
+  margin-right: 4%;
+}
+
+.big {
+  font-size: 14vw;
+  max-width: 50em;
+  margin-bottom: 0;
+  margin-top: -1vw;
+}
+
+.small {
+  text-align: right;
+  margin-top: 0;
+}
+
+.big.red-text {
+  margin-top: 0px;
+  padding-bottom: ;
+}
+
+.BigSmall {
+  padding-top: 30vh;
+  margin-right: 5vw;
+  width: 50vw;
+  display: grid;
+  justify-content: right;
+}
+
+.red {
+  color: #fa6e53;
+}
+
+.siphon {
+  font-family: "Sifonn Pro";
+}
+
+.kollektif {
+  font-family: "Kollectif";
+}
+
+.call-number {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: stretch;
+  padding-top: 14vh;
+  margin-top: -4vw;
+}
+
+.call {
+  margin-bottom: -0.6em;
+  text-decoration: underline;
+}
+
+.number {
+  padding-top: 0.5em;
+}
