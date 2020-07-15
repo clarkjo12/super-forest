@@ -1,0 +1,29 @@
+@import-normalize;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Sifonn Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Sifonn Pro"), url("./fonts/SIFONN_PRO.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kollektif";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Kollektif"), url("./fonts/Kollektif.ttf") format("ttf");
+}
