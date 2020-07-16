@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import { Transition } from "react-spring/renderprops";
 
-class BigSmall extends Component {
+export class BigSmall extends Component {
   render() {
     return (
       <div className="BigSmall">

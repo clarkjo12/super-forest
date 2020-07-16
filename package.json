@@ -10,8 +10,10 @@
     "nodemon": "^2.0.4",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
+    "react-css-transition": "^0.7.4",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
     "reset-css": "^5.0.1"
   },
   "scripts": {
