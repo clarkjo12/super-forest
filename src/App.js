@@ -1,26 +1,31 @@
 import React from "react";
 import "./App.css";
-import BigSmall from "./components/BigSmall";
 import logo from "./images/logo.png";
 import tree from "./images/treeicontrans.png";
+
+import BigSmall from "./components/BigSmall";
+import Tabs from "./components/Tabs";
+import CallNumber from "./components/CallNumber";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <div className="App">
-      <img className="tree" src={tree} alt="Tree" />
-
+      {/* first */}
       <div className="main-landing">
+        {/* <img className="tree" src={tree} alt="Tree" /> */}
         <img className="logo" src={logo} alt="Supreme Forestry" />
         <div className="top-block">
-          <BigSmall />{" "}
-          <div className="call-number red">
-            <div>
-              <h3 className="call">We do it all - Call on us</h3>
-              <h3 className="call"> when you need the job done right.</h3>
-            </div>
-            <h1 className="number siphon">919-906-8311</h1>
-          </div>
+          <BigSmall /> <CallNumber />
         </div>
+      </div>
+      {/* second */}
+      <div className="green-back">
+        <Tabs />
+      </div>
+      {/* third */}
+      <div className="blue-back">
+        <Portfolio />
       </div>
     </div>
   );

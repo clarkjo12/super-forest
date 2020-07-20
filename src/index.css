@@ -25,5 +25,5 @@ code {
   font-family: "Kollektif";
   font-style: normal;
   font-weight: normal;
-  src: local("Kollektif"), url("./fonts/Kollektif.ttf") format("ttf");
+  src: local("Kollektif"), url("./fonts/Kollektif.ttf") format("truetype");
 }
