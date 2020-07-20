@@ -1,15 +1,12 @@
 import React, { Component } from "react";
-import { Transition } from "react-spring/renderprops";
 
-export class BigSmall extends Component {
+export default class BigSmall extends React.PureComponent {
   render() {
     return (
       <div className="BigSmall">
         <h1 className="big red siphon">BIG</h1>
-        <h5 className="small red siphon">and small.</h5>
+        <h4 className="small red siphon">and small.</h4>
       </div>
     );
   }
 }
-
-export default BigSmall;

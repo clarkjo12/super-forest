@@ -6,12 +6,24 @@
 }
 
 .kollektif {
-  font-family: "Kollectif";
+  font-family: "Kollektif";
 }
 
 /* Color */
 .red {
   color: #fa6e53;
+}
+
+.white {
+  color: #fff;
+}
+
+.gray {
+  color: #474747;
+}
+
+.App {
+  width: 100% !important;
 }
 /* 
  - First Section - */
@@ -20,12 +32,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 99vh;
+  width: 100% !important;
 }
 
 .tree {
   z-index: 1;
   padding-left: 5em;
-  position: fixed;
+  position: absolute;
   left: 50%;
   bottom: -3em;
   transform: translate(-50%, 0);
@@ -73,18 +86,6 @@
   justify-content: right;
 }
 
-.red {
-  color: #fa6e53;
-}
-
-.siphon {
-  font-family: "Sifonn Pro";
-}
-
-.kollektif {
-  font-family: "Kollectif";
-}
-
 .call-number {
   position: relative;
   z-index: 2;
@@ -94,13 +95,133 @@
   justify-content: stretch;
   padding-top: 14vh;
   margin-top: -4vw;
+  height: 6vh;
 }
 
 .call {
   margin-bottom: -0.6em;
+}
+
+.under {
   text-decoration: underline;
 }
 
 .number {
   padding-top: 0.5em;
+}
+
+/* Second Section */
+
+.green-back {
+  background-color: #73d469;
+}
+
+.gback-header {
+  margin: 0;
+}
+
+.container {
+  width: 70%;
+}
+
+/* tabs */
+.tabs {
+  padding: 1.3rem 0;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tabs .container > div:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.tab-border {
+  border-bottom: 4px solid #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 2em;
+}
+
+.tabs p {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+.tab-item {
+  color: #474747;
+}
+
+/* Blueback */
+
+.blue-back {
+  background-color: #5dc4ff;
+}
+
+.port-main {
+  display: flex;
+  justify-content: center;
+}
+
+.port-left {
+  width: 50vw;
+  margin-right: -1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.port-right {
+  display: flex;
+  margin-left: -1.5vw;
+  width: 50vw;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.sun {
+  width: 50vw;
+  margin-top: -13vw;
+  margin-bottom: -14vw;
+}
+
+.pic {
+  width: 35vw;
+  border: #fa6e53 1.2em solid;
+  margin: 2em 0;
+}
+
+.handy-text {
+  font-size: 6vw;
+  padding-left: 8vw;
+  margin-top: -1.6vw;
+}
+
+.final-div {
+}
+
+.final-title {
+  font-size: 4vw;
+  padding-left: 0.6em;
+}
+
+.final-text {
+  font-size: 2.5vw;
+  text-align: center;
+  width: 45vw;
+  margin-top: -0.7em;
 }
