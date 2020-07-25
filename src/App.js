@@ -13,7 +13,9 @@ function App() {
     <div className="App">
       {/* first */}
       <div className="main-landing">
-        {/* <img className="tree" src={tree} alt="Tree" /> */}
+        <div className="tree-div">
+          <img className="tree" src={tree} alt="Tree" />
+        </div>
         <img className="logo" src={logo} alt="Supreme Forestry" />
         <div className="top-block">
           <BigSmall /> <CallNumber />
@@ -22,7 +24,7 @@ function App() {
       {/* second */}
       <div className="green-back">
         <Tabs />
-      </div>
+      </div>{" "}
       {/* third */}
       <div className="blue-back">
         <Portfolio />
