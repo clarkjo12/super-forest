@@ -133,7 +133,7 @@
 /* Second Section */
 
 .green-back {
-  background-color: #7fcc28;
+  background-color: #95ea34;
 }
 
 .gback-header {
@@ -163,8 +163,21 @@
   color: #fff;
 }
 
+/* Tab Border */
 .tab-border {
   border-bottom: 4px solid #fff;
+}
+
+.border-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.tab {
+  width: 25vw;
 }
 
 .container {

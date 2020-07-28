@@ -35,8 +35,8 @@ export default class Portfolio extends React.PureComponent {
               See What Else We've Been Up Too...
             </p>{" "}
             <p className="kollektif gray final-text">
-              Visit our Facebook page to see the most recent projects we've been
-              helping Triangle's homeowners.
+              Visit our Facebook page to see the most recent projects we've
+              helped Triangle's homeowners with.
             </p>{" "}
             <a
               className="fb-a-link"

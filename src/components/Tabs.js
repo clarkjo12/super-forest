@@ -7,47 +7,99 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Tabs extends React.PureComponent {
-  testing() {
-    console.log("testing");
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentView: "one"
+    };
   }
 
   render() {
+    const switchBorder = () => {
+      switch (this.state.currentView) {
+        case "one":
+          return (
+            <div className="border-div">
+              <div className="tab tab-border"></div>
+              <div className="tab"></div>
+              <div className="tab"></div>
+            </div>
+          );
+        case "two":
+          return (
+            <div className="border-div">
+              <div className="tab"></div>
+              <div className="tab tab-border"></div>
+              <div className="tab"></div>
+            </div>
+          );
+        case "three":
+          return (
+            <div className="border-div">
+              <div className="tab"></div>
+              <div className="tab "></div>
+              <div className="tab tab-border"></div>
+            </div>
+          );
+      }
+    };
+
+    const switchView = () => {
+      switch (this.state.currentView) {
+        case "one":
+          return (
+            <div className="tab-item">
+              <h2>tab 1</h2>
+            </div>
+          );
+        case "two":
+          return (
+            <div className="tab-item">
+              <h2>tab 2</h2>
+            </div>
+          );
+        case "three":
+          return (
+            <div className="tab-item">
+              <h2>tab 3</h2>
+            </div>
+          );
+      }
+    };
+
     return (
       <section className="tabs">
-        <div className="tab container siphon">
-          <div className="tab-item tab-border" onClick={this.testing}>
+        <div className="container siphon">
+          <div
+            onClick={e => this.setState({ currentView: "one" })}
+            className="tab-item"
+          >
             <div>
               <FontAwesomeIcon icon={faHourglassHalf} size="5x" />
             </div>
             <p className="hide-sm">Cancel anytime</p>
           </div>
-          <div className="tab-item ">
+          <div
+            onClick={e => this.setState({ currentView: "two" })}
+            className="tab-item"
+          >
             <div>
               <FontAwesomeIcon icon={faSmileBeam} size="5x" />
             </div>
             <p className="hide-sm">Watch anywhere</p>
           </div>
-          <div className="tab-item">
-            {" "}
+          <div
+            onClick={e => this.setState({ currentView: "three" })}
+            className="tab-item"
+          >
             <div>
               <FontAwesomeIcon icon={faHeartbeat} size="5x" />
             </div>
             <p className="hide-sm">Pick your price</p>
           </div>
         </div>
-        <div className="tab-content-item show">
-          <div className="tab-1-content-inner">
-            <div>
-              <p className="text-lg kollektif">
-                If you decide Netflix isn't for you - no problem. No commitment.
-                Cancel online anytime.
-              </p>
-              <a href="#" className="btn btn-sm siphon">
-                Watch Free For 30 Days
-              </a>
-            </div>
-          </div>
-        </div>
+        <div className="border-container">{switchBorder()}</div>
+        <div className="container">{switchView()}</div>
       </section>
     );
   }
