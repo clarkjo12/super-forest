@@ -18,7 +18,7 @@ export default class Portfolio extends React.PureComponent {
     return (
       <div className="port-main">
         <div className="port-left">
-          <p className="siphon gray handy-text">Checkout Our Handiwork,</p>
+          <h2 className="siphon gray handy-text">Checkout Our Handiwork,</h2>
           <PortPic1 />
           <PortPic2 />
           <PortPic3 />
