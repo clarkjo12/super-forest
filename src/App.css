@@ -65,7 +65,12 @@
     height: 150vh;
     overflow-x: hidden;
   }
+
+  .tab-title {
+    font-size: 3rem;
+  }
 }
+
 .top-block {
   height: 50%;
 }
@@ -176,6 +181,19 @@
   margin: auto;
 }
 
+/*Tab content*/
+.tab-title {
+  font-size: 6vw;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+}
+.tab-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .tab {
   width: 25vw;
 }
@@ -188,13 +206,64 @@
   margin-top: 2em;
 }
 
-.tabs p {
-  font-size: 1.2rem;
-  padding-top: 1rem;
+p {
+  text-indent: 2em;
 }
-
 .tab-item {
   color: #474747;
+  margin-bottom: 1.4em;
+}
+
+.main-content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  margin-bottom: -2em;
+}
+
+.tab-p {
+  font-size: 3vw;
+  padding: 0 3vw;
+}
+
+/* Tab 1 */
+.tab1-title {
+  padding-left: 25vw;
+}
+
+/* Tab 2 */
+.tab2-title {
+  padding-left: 24vw;
+  margin-bottom: -0.1em;
+}
+.tab-2-left {
+  width: 40vw;
+  font-size: 3vw;
+  padding-left: 2vw;
+}
+.tab-2-right {
+  width: 40vw;
+  font-size: 3vw;
+  padding-left: 5vw;
+}
+
+li {
+  padding: 0.2em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 2vw;
+}
+.bullet-star {
+  margin-right: 0.3em;
+  color: #fee991;
+}
+/* Tab 3 */
+.tab3-title {
+  padding-left: 20vw;
 }
 
 /* Blueback */
