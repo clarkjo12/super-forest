@@ -1,6 +1,7 @@
 import React from "react";
+// import { useSpring, animated } from "react-spring";
 
-import sun from "../images/suntrans.png";
+import Sun from "./Sun";
 
 import PortPic1 from "./PicCards/Pic1";
 import PortPic2 from "./PicCards/Pic2";
@@ -26,7 +27,7 @@ export default class Portfolio extends React.PureComponent {
         </div>
 
         <div className="port-right">
-          <img className="sun" src={sun} alt="Sun" />
+          <Sun />
           <PortPic5 />
           <PortPic6 />
           <PortPic7 />

@@ -298,6 +298,9 @@ ul {
   width: 55vw;
   margin-top: -15vw;
   margin-bottom: -15vw;
+  background: url("./images/suntrans.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pic {
@@ -346,6 +349,7 @@ ul {
   text-align: center;
   width: 45vw;
   margin-top: -0.7em;
+  text-indent: 0;
 }
 
 /* SPRING */

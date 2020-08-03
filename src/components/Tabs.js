@@ -60,7 +60,7 @@ export default class Tabs extends React.PureComponent {
               </p>
               <p className="tab-p tab-content kollektif">
                 Due to ongoing Covid concerns, we have been accepting
-                picture/text messages, of trees in question, for even faster
+                picture/text messages of trees in question, for even faster
                 quotes!
               </p>
             </div>
@@ -112,12 +112,12 @@ export default class Tabs extends React.PureComponent {
                 Sometimes the whole tree doesnt need to come down. We are one,
                 of a very few, who specialize in "Spike-less" tree climbing.
                 Climbing a tree you'd like keep, with spikes, will actually
-                leave open wounds on the tree, that can be easily infected and cause
-                premature death!
+                leave open wounds on the tree, that can be easily infected and
+                cause premature death!
               </p>
               <p className="tab-p tab-content kollektif">
-                Along with proper, seasoned arboriculture practices; everything we do, is
-                to ensure your trees last longer than you do.
+                Along with proper, seasoned arboriculture practices; everything
+                we do, is to ensure your trees last longer than you do.
               </p>
             </div>
           );

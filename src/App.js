@@ -8,29 +8,29 @@ import Tabs from "./components/Tabs";
 import CallNumber from "./components/CallNumber";
 import Portfolio from "./components/Portfolio";
 
-function App() {
-  return (
-    <div className="App">
-      {/* first */}
-      <div className="main-landing">
-        <div className="tree-div">
-          <img className="tree" src={tree} alt="Tree" />
+export default class App extends React.PureComponent {
+  render() {
+    return (
+      <div className="App">
+        {/* first */}
+        <div className="main-landing">
+          <div className="tree-div">
+            <img className="tree" src={tree} alt="Tree" />
+          </div>
+          <img className="logo" src={logo} alt="Supreme Forestry" />
+          <div className="top-block">
+            <BigSmall /> <CallNumber />
+          </div>
         </div>
-        <img className="logo" src={logo} alt="Supreme Forestry" />
-        <div className="top-block">
-          <BigSmall /> <CallNumber />
+        {/* second */}
+        <div className="green-back">
+          <Tabs />
+        </div>{" "}
+        {/* third */}
+        <div className="blue-back">
+          <Portfolio />
         </div>
       </div>
-      {/* second */}
-      <div className="green-back">
-        <Tabs />
-      </div>{" "}
-      {/* third */}
-      <div className="blue-back">
-        <Portfolio />
-      </div>
-    </div>
-  );
+    );
+  }
 }
-
-export default App;
