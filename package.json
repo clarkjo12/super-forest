@@ -23,10 +23,10 @@
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-css-transition": "^0.7.4",
-    "react-dev-utils": "^10.2.1",
+    "react-dev-utils": "^12.0.1",
     "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-spring": "^8.0.27",
     "reset-css": "^5.0.1"
   },
